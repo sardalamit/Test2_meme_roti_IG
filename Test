@@ -1,0 +1,8 @@
+roti = float(input ("Give rotis for charity. Type no. of roti: "))
+expected_roti = 10 * roti
+print ("Neighbours bring roti.")
+roti = float(input ("kitni roti hai? Type no. of roti: "))
+if roti >= expected_roti:
+    print ("Yeh apni roti hai!")
+else:
+    print ("Yeh apni roti nahi hai.")
